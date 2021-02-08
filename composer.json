@@ -1,0 +1,13 @@
+{
+    "name": "hexlet/code",
+    "description": "Training project",
+    "authors": [
+        {
+            "name": "Alexander Tokarev",
+            "email": "kosades.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
