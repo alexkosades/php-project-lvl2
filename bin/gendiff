@@ -18,4 +18,4 @@ Options:
 DOC;
 
 $args = Docopt::handle($doc, ['version' => '1.0']);
-Gendiff\Engine::compareJsonFiles($args['<firstFile>'], $args['<secondFile>']);
+Gendiff\Engine::diff($args['<firstFile>'], $args['<secondFile>']);
