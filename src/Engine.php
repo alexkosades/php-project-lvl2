@@ -4,7 +4,7 @@ namespace Gendiff;
 
 class Engine
 {
-    public static function diff($firstFile, $secondFile)
+    public static function jsonDiff($firstFile, $secondFile)
     {
         [$firstFileData, $secondFileData] = self::getDataFromFiles($firstFile, $secondFile);
         $diff = self::calculateDiff($firstFileData, $secondFileData);
@@ -47,7 +47,7 @@ class Engine
             } else {
                 $str = $value;
             }
-            echo ("$key: $str\n");
+            echo("$key: $str\n");
         }
     }
 }
